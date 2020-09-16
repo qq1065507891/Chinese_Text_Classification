@@ -1,0 +1,11 @@
+bert + fc : Test Loss: 0.28,Test Acc:91.93%
+bert + cnn: Test Loss: 0.28,Test Acc:91.32%
+bert + rnn: Test Loss: 0.45,Test Acc:87.29%
+bert + RCNN: Test Loss: 0.41,Test Acc:88.73%
+bert+ DPCNN: Test Loss: 0.31,Test Acc:91.00%
+ERNIE: Test Loss: 0.19,Test Acc:94.37%
+ERNIE + DPCNNTest Loss: 0.19,Test Acc:94.00%
+
+rnn 和 rcnn效果不太好的原因估计是隐藏数量过少, 由于本人机器限制, 读者可以自行调整隐藏层参数和学习率
+
+
