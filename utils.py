@@ -128,3 +128,5 @@ def get_time_idf(start_time):
     end_time = time.time()
     time_idf = end_time - start_time
     return timedelta(seconds=int(round(time_idf)))
+
+# https://tf.wiki/zh_hans/
